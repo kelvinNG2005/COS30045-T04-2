@@ -27,22 +27,12 @@
         <!-- Home Page -->
         <section id="home" class="page active">
             <h1>Television Energy Consumption in Australia</h1>
-            <p class="intro">
-               An interactive exploration of the energy efficiency of televisions currently available on the Australian market.
-            </p>
-
-            <h2>About This Project</h2>
-            <p>
-                This website presents a set of data visualisations built from the <strong>Australian Government's Energy Rating Data for Household
-                Appliances — Labelled Products</strong> dataset, published on
-                <a href="https://data.gov.au" target="_blank" rel="noopener">data.gov.au</a>.
-                Our focus is specifically on <strong>televisions</strong> sold in Australia.
-            </p>
-
-            <p class="placeholder-note">
-                <em>Data is a snapshot of televisions registered at the time of retrieval
-                and may not reflect the current market.</em>
-            </p>
+            <div id="content"></div>
+            <!-- Give the SVG a size so shapes can be seen -->
+            <svg width="300" height="150"></svg>
+            <!-- Load D3 first, then your D3 code file -->
+            <script src="https://d3js.org/d3.v7.min.js"></script>
+            <script src="energy-d3.js"></script>
         </section>
 
         <!-- Televisions Page -->
