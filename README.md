@@ -7,7 +7,7 @@ Built for **COS30045 Data Visualisation** tutorial exercises.
 ---
 
 # Visit the hosted version:
-https://cos-30045-energy-consumption-websit.vercel.app/
+https://cos30045-t04-sand.vercel.app/
 
 
 ---
